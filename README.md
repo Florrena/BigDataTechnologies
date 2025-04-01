@@ -21,20 +21,20 @@ Why is the problem important in Big Data context: It’s important because the d
 
 Key goals for understanding what makes a game successful: 
 
-Identify key trends by analyzing tags, genre, etc. 
-
-Analyze user reviews and recommendations using Spark and MongoDB 
-
-Analyze pricing impact on game sales and/or popularity using Spark and MongoDB 
-
-Possibly comparing success with 2024 dataset, if we have time, to see which trends and games changed over time. 
+  Identify key trends by analyzing tags, genre, etc. 
+  
+  Analyze user reviews and recommendations using Spark and MongoDB 
+  
+  Analyze pricing impact on game sales and/or popularity using Spark and MongoDB 
+  
+  Possibly comparing success with 2024 dataset, if we have time, to see which trends and games changed over time. 
 
 **Expected outcomes **
 
-We aim to identify what makes a game successful across Spark and MongoDB. 
-
-We aim to identify correlation between user feedback, recommendations and game success. 
-
-We aim to compare the game's success over time. 
-
-We aim to identify key gaming trends on Steam and process them efficiently using Spark and MongoDB. 
+  We aim to identify what makes a game successful across Spark and MongoDB. 
+  
+  We aim to identify correlation between user feedback, recommendations and game success. 
+  
+  We aim to compare the game's success over time. 
+  
+  We aim to identify key gaming trends on Steam and process them efficiently using Spark and MongoDB. 
