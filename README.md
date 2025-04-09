@@ -13,6 +13,7 @@ Make sure you have the following installed:
 You can use the virtual environment to run this code and use Spark, in this case just use 'pip install pyspark' in your virtual environment. Note that you still need to download Java, winutils.exe and python.
 
 Additionaly, you need  MongoDB (local or cloud instance). You can get it from here -> http://mongodb.com/try/download/community
+
 Create a new connection and copy the the connection string.
 
 ### Install required Python libraries using pip install:
