@@ -1,40 +1,34 @@
 # BigDataTechnologies
 Anna Barcikowska, Janika Salminen
 
-**Chosen dataset **
+This project analyzes game tags to compare their occurrence in successful games. It uses popular Python libraries to process the data and create visual insights.
 
-Name: Steam Games Dataset 2025 
+## Follow these instructions to run the notebook on your local machine.
+Make sure you have the following installed:
 
-Source: kaggle.com/steam-games-dataset-2025  
+- Python 3.11.11
+- Java JDK version 17
+- Apache Spark version 3.5.5
+- compatible winutils.exe
+You can use the virtual environment to run this code and use Spark, in this case just use 'pip install pyspark' in your virtual environment. Note that you still need to download Java, winutils.exe and python.
 
-We are using the games_march2025_full dataset for our main analysis 
+Additionaly, you need  MongoDB (local or cloud instance). You can get it from here -> http://mongodb.com/try/download/community
+Create a new connection and copy the the connection string.
 
-We chose the Steam Games dataset because we’re interested in gaming and working with this data makes the project easier and more interesting for us. It has 90k rows and 47 different columns with valuable information like game names, genres pricing and reviews, which gives us a lot of things to analyze and visualize. Since the data is taken from Steam using the Steam API, it is a real-world dataset. 
+### Install required Python libraries using pip install:
+- pandas 
+- numpy 
+- matplotlib 
+- seaborn 
+- scikit-learn
+- pymongo 
 
-**Problem statement **
+Then, clone the repository -> https://github.com/Florrena/BigDataTechnologies.git
 
-What problem are we solving: What makes a game successful in today’s world? 
+Download the dataset -> https://www.kaggle.com/datasets/artermiloff/steam-games-dataset (We are using the games_march2025_full dataset for our main analysis)
 
-Why is the problem important in Big Data context: It’s important because the dataset is complex and handling it requires Big Data tools. Also, figuring out why different games succeed can help developers see what is trending and create more popular games and boost sales. 
+Put the dataset and repository in the desired place in your local device and run the program.
 
-**Project objectives **
+### ! Make sure to update your MongoDB connection string in the notebook, as well as the dataset path !
 
-Key goals for understanding what makes a game successful: 
 
-  Identify key trends by analyzing tags, genre, etc. 
-  
-  Analyze user reviews and recommendations using Spark and MongoDB 
-  
-  Analyze pricing impact on game sales and/or popularity using Spark and MongoDB 
-  
-  Possibly comparing success with 2024 dataset, if we have time, to see which trends and games changed over time. 
-
-**Expected outcomes **
-
-  We aim to identify what makes a game successful across Spark and MongoDB. 
-  
-  We aim to identify correlation between user feedback, recommendations and game success. 
-  
-  We aim to compare the game's success over time. 
-  
-  We aim to identify key gaming trends on Steam and process them efficiently using Spark and MongoDB. 
